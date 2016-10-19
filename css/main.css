@@ -24,13 +24,25 @@ html {
   background-color: #cabdb2;
 }
 
+.btn {
+  font-size: 1.125rem;
+  font-weight: bold;
+  display: inline-block;
+  font-family: Dosis, sans-serif;
+  padding: .4em .75em .5em;
+  color: #fff;
+  background-color: #785439;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
 .linkcard:hover .btn {
   background-color: #000;
 }
 
 .link-card h2 {
-  font-family: "Dosis", sans-serif;
-  font-weight: 700;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
   font-size: 1.5rem;
   margin: 0 0 1rem;
   text-align: left;
@@ -57,16 +69,4 @@ div {
   text-align: left;
   border-bottom: 2px solid;
   border-color: #9a816d;
-}
-
-.btn {
-  font-size: 1.125rem;
-  font-weight: bold;
-  display: inline-block;
-  font-family: "Dosis", sans-serif;
-  padding: 0.4em 0.75em 0.5em;
-  color: #fff;
-  background-color: #785439;
-  border-radius: 8px;
-  margin-bottom: 0;
 }
