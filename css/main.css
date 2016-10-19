@@ -1,0 +1,16 @@
+html {
+  max-width: 320px;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: inline-block;
+  background-color: #dcd4cd;
+  color: #512200;
+  border: 3px solid;
+  border-color: #9a816d;
+}
