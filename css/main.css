@@ -20,6 +20,14 @@ html {
   text-align: center;
 }
 
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.linkcard:hover .btn {
+  background-color: #000;
+}
+
 h2 {
   font-family: "Dosis", sans-serif;
   font-weight: 700;
@@ -59,4 +67,5 @@ div {
   color: #fff;
   background-color: #785439;
   border-radius: 8px;
+  margin-bottom: 0;
 }
